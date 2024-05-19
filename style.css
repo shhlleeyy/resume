@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: black;
+    font-family: 'Arial', sans-serif;
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    margin-left: 100px;
+}
+.navBar{
+    margin-left: 70%;
+    height: 70px;
+    top:10px;
+    position: fixed;
+    width: 40%;
+    z-index: 100;
+}
+.active{
+    font-size: 21px;
+    color: rgb(234, 97, 198);
+}
+#navBar{
+    list-style: none;
+    color: #fff;
+}
+#nav{
+    display: inline-block;
+    margin-left: 17px;
+    margin-right: 10px;
+    font-size: 18px;
+    margin-top: 23px;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.navBar a:hover{
+    color: rgb(234, 97, 198);
+    transform: scale(1.2);
+}
+a.zoomed {
+    transform: scale(1.2);
+    color: white; 
+}
+.content{
+    margin-top: 100px;
+}
+h1{
+    color: white;
+    font-size: 70px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+}
+h2{
+    font-size: 40px;
+    color: white;
+    margin-left: 50px;
+}
+h3{
+    font-size: 30px;
+    color: white;
+}
+h4{
+    font-size: 25px;
+    color: white;
+}
+h5{
+    font-size: 20px;
+    color: white;
+}
+.multiple-text{
+    text-transform: capitalize;
+}
+img{
+    border-radius: 200px;
+    border: 2px solid;
+    border-color: white;
+}
+table{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.divider{
+    height:30px;
+}
+#service, #product, #skill{
+    background-color: #203647;
+    border: 2px solid #007cc7;
+    width: 30%;
+    color: #eef8f8;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+.skill{
+    border-collapse: separate;
+    border-spacing: 100px;
+}
+.skill td{
+    vertical-align: top;
+    padding: 10px;
+}
+.contact{
+    width: 100%;
+}
+#home{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    position: relative;
+    height: 100vh;
+}
+#projects,#skills{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    height: 100vh;
+}
+#contact{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    position: relative;
+    height: 100vh;
+    align-items: center;
+}
+td{
+    color: white;
+    font-size: 20px;
+    vertical-align: top;
+}
+th{
+    text-align: left;
+}
+.projects{
+    margin-left: 20px;
+}
+ul{
+    color: white;
+    padding: 20px;
+    font-size: 22px;
+}
+i{
+    color: white;
+}
